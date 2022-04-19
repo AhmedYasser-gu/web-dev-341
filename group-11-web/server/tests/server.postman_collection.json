@@ -1,0 +1,1907 @@
+{
+	"info": {
+		"_postman_id": "83220b22-5a42-4d62-be41-62cb104e230b",
+		"name": "server",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "movies",
+			"item": [
+				{
+					"name": "add Aquaman",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "\r\n{\r\n  \"movieName\": \"Aquaman\",\r\n  \"movieStory\": \"Arthur Curry learns that he is the heir to the underwater kingdom of Atlantis, and must step forward to lead his people and be a hero to the world.\",\r\n  \"releaseDate\": \"2018-12-14\",\r\n  \"genre\": \"Adventure\",\r\n  \"movieLengthMinutes\": 140,\r\n  \"director\": \"James Wan\",\r\n  \"actors\": [\r\n    \"Jason Momoa\",\r\n    \"Amber Heard\",\r\n    \"Nicole Kidman\",\r\n    \"Dolph Lundgren\",\r\n    \"Patrick Wilson\",\r\n    \"Willem Dafoe\"\r\n  ],\r\n  \"poster\": \"https://www.joblo.com/wp-content/uploads/2018/10/aquamanposter-1.jpg\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}/api/movies",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"api",
+								"movies"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "add Solo: A Star Wars Story",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"movieName\": \"Solo: A Star Wars Story\",\r\n  \"movieStory\": \"During an adventure into the criminal underworld, Han Solo meets his future co-pilot Chewbacca and encounters Lando Calrissian years before joining the Rebellion.\",\r\n  \"releaseDate\": \"2018-05-24\",\r\n  \"genre\": \"Adventure\",\r\n  \"movieLengthMinutes\": 135,\r\n  \"director\": \"Ron Howard\",\r\n  \"actors\": [\r\n    \"Alden Ehrenreich\",\r\n    \"Joonas Suotamo\",\r\n    \"Woody Harrelson\",\r\n    \"Emilia Clarke\",\r\n    \"Donald Glover\"\r\n  ],\r\n  \"poster\": \"https://m.media-amazon.com/images/I/51pb9GtvNYL.jpg\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}/api/movies",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"api",
+								"movies"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "add Jurassic World",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"movieName\": \"Jurassic World\",\r\n  \"movieStory\": \"22 years after the original Jurassic Park failed, the new park (also known as Jurassic World) is open for business. After years of studying genetics the scientists on the park genetically engineer a new breed of dinosaur. When everything goes horribly wrong, will our heroes make it off the island?\",\r\n  \"releaseDate\": \"2015-06-12\",\r\n  \"genre\": \"Action\",\r\n  \"movieLengthMinutes\": 124,\r\n  \"director\": \"Colin Trevorrow\",\r\n  \"actors\": [\r\n    \"Chris Pratt\",\r\n    \"Bryce Dallas Howard\",\r\n    \"Ty Simpkins\"\r\n  ],\r\n  \"poster\" : \"http://www.jurassicworld.com/sites/default/files/2016-08/jw_cover.jpg\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}/api/movies",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"api",
+								"movies"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "add Mission Impossible - Rogue Nation",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"movieName\": \"Mission Impossible - Rogue Nation\",\r\n  \"movieStory\": \"Ethan and team take on their most impossible mission yet, eradicating the Syndicate - an International rogue organization as highly skilled as they are, committed to destroying the IMF.\",\r\n  \"releaseDate\": \"2015-07-31\",\r\n   \"genre\": \"Action\",\r\n  \"movieLengthMinutes\": 131,\r\n  \"director\": \"Christopher McQuarrie\",\r\n  \"actors\": [\r\n    \"Tom Cruise\",\r\n    \"Paula Patton\",\r\n    \"Simon Pegg\"\r\n  ],\r\n  \"poster\": \"https://i-viaplay-com.akamaized.net/viaplay-prod/7/584/1460165238-ec548bdbc4b2ea097eb230d013a04f87f25f6267.jpg?width=400&height=600\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}/api/movies",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"api",
+								"movies"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "add The Hateful Eight",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"movieName\": \"The Hateful Eight\",\r\n  \"movieStory\": \"In the dead of a Wyoming winter, a bounty hunter and his prisoner find shelter in a cabin currently inhabited by a collection of nefarious characters.\",\r\n  \"releaseDate\": \"2015-12-30\",\r\n  \"genre\": \"Adventure\",\r\n  \"movieLengthMinutes\": 187,\r\n  \"director\": \"Quentin Tarantino\",\r\n  \"actors\": [\r\n    \"Samuel L. Jackson\",\r\n    \"Kurt Russel\",\r\n    \"Jennifer Jason Leigh\"\r\n  ],\r\n  \"poster\": \"https://m.media-amazon.com/images/M/MV5BMjA1MTc1NTg5NV5BMl5BanBnXkFtZTgwOTM2MDEzNzE@._V1_.jpg\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}/api/movies",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"api",
+								"movies"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "add John Wick",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"movieName\": \"John Wick\",\r\n  \"movieStory\": \"An ex-hitman comes out of retirement to track down the gangsters that killed his dog and took everything from him.\",\r\n  \"releaseDate\": \"2014-09-19\",\r\n  \"movieLengthMinutes\": 101,\r\n  \"genre\": \"Action\",\r\n  \"director\": \"Chad Stahelski\",\r\n  \"actors\": [\r\n    \"Keanu Reeves\",\r\n    \"Michael Nyqvist\",\r\n    \"Alfie Allen\",\r\n    \"Willem Dafoe\",\r\n    \"Ian McShane\"\r\n  ],\r\n  \"poster\": \"https://m.media-amazon.com/images/I/81vZ6tNxuoL._SY500_.jpg\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}/api/movies",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"api",
+								"movies"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "add Dunkirk",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"movieName\": \"Dunkirk\",\r\n  \"movieStory\": \"Allied soldiers from Belgium, the British Empire and France are surrounded by the German Army, and evacuated during a fierce battle in World War II.\",\r\n  \"releaseDate\": \"2017-07-21\",\r\n  \"genre\": \"Adventure\",\r\n  \"movieLengthMinutes\": 106,\r\n  \"director\": \"Christopher Nolan\",\r\n  \"actors\": [\r\n   \"Fionn Whitehead\",\r\n    \"Barry Keoghan\",\r\n    \"Mark Rylance\"\r\n  ],\r\n  \"poster\": \"https://m.media-amazon.com/images/I/61jphewUR6L._AC_SL1111_.jpg\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}/api/movies",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"api",
+								"movies"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "add It",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"movieName\": \"It\",\r\n  \"movieStory\": \"A group of bullied kids band together when a shapeshifting demon, taking the appearance of a clown, begins hunting children.\",\r\n  \"releaseDate\": \"2017-09-08\",\r\n  \"genre\": \"Adventure\",\r\n  \"movieLengthMinutes\": 135,\r\n  \"director\": \"Andy Muschietti\",\r\n  \"actors\": [\r\n   \"Bill Skarsgård\",\r\n    \"Jaeden Lieberher\",\r\n    \"Finn Wolfhard\"\r\n  ],\r\n  \"poster\": \"https://m.media-amazon.com/images/M/MV5BZDVkZmI0YzAtNzdjYi00ZjhhLWE1ODEtMWMzMWMzNDA0NmQ4XkEyXkFqcGdeQXVyNzYzODM3Mzg@._V1_.jpg\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}/api/movies",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"api",
+								"movies"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "add Baby Driver",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"movieName\": \"Baby Driver\",\r\n  \"movieStory\": \"After being coerced into working for a crime boss, a young getaway driver finds himself taking part in a heist doomed to fail.\",\r\n  \"releaseDate\": \"2017-06-28\",\r\n  \"genre\": \"Action\",\r\n  \"movieLengthMinutes\": 113,\r\n  \"director\": \"Edgar Wright\",\r\n  \"actors\": [\r\n    \"Ansel Elgort\",\r\n    \"Jon Bernthal\",\r\n    \"Jon Hamm\"\r\n  ],\r\n  \"poster\": \"https://i.pinimg.com/originals/84/da/29/84da2993f06115552f452e1b174a4517.png\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}/api/movies",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"api",
+								"movies"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "add Venom",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"movieName\": \"Venom\",\r\n  \"movieStory\": \"When Eddie Brock acquires the powers of a symbiote, he will have to release his alter-ego 'Venom' to save his life.\",\r\n  \"releaseDate\": \"2018-10-05\",\r\n  \"genre\": \"Action\",\r\n  \"movieLengthMinutes\": 112,\r\n  \"director\": \"Ruben Fleischer\",\r\n  \"actors\": [\r\n    \"Tom Hardy\",\r\n    \"Michelle Williams\",\r\n    \"Marcella Bragio\"\r\n  ],\r\n  \"poster\": \"https://m.media-amazon.com/images/M/MV5BNzAwNzUzNjY4MV5BMl5BanBnXkFtZTgwMTQ5MzM0NjM@._V1_.jpg\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}/api/movies",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"api",
+								"movies"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "getAllMovies",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "{{host}}/api/movies",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"api",
+								"movies"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "getAllMoviesSortedByGenre",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/api/movies?sortByGenre=movieGenre",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"api",
+								"movies"
+							],
+							"query": [
+								{
+									"key": "sortByGenre",
+									"value": "movieGenre"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "getMovieBasedOnName",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}/api/movies?sortByName=Venom",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"api",
+								"movies"
+							],
+							"query": [
+								{
+									"key": "sortByName",
+									"value": "Venom"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "getmovieBasedOnId",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/api/movies/:id",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"api",
+								"movies",
+								":id"
+							],
+							"query": [
+								{
+									"key": null,
+									"value": "",
+									"disabled": true
+								}
+							],
+							"variable": [
+								{
+									"key": "id",
+									"value": "6167b748f2b2e04c9cafeb74"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "removeMovieBasedOnId",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"movieId\": \"6167b734f2b2e04c9cafeb59\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}/api/movies/:id",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"api",
+								"movies",
+								":id"
+							],
+							"variable": [
+								{
+									"key": "id",
+									"value": "6197c0387be6ae23e8889404"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "episodes",
+			"item": [
+				{
+					"name": "addingEpisode1 S1-GOT",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"episodeNr\" : 1,\r\n    \"episodeName\" : \"GOT-S1-Episode1\",\r\n    \"episodeLength\" : 60\r\n    \r\n}\r\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}/api/episodes",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"api",
+								"episodes"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "addingEpisode2 S1-GOT",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"episodeNr\" : 2,\r\n    \"episodeName\" : \"GOT-S1-Episode2\",\r\n    \"episodeLength\" : 60\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}/api/episodes",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"api",
+								"episodes"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "addingEpisode3 S1-GOT",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"episodeNr\" : 3,\r\n    \"episodeName\" : \"GOT-S1-Episode3\",\r\n    \"episodeLength\" : 60\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}/api/episodes",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"api",
+								"episodes"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "addingEpisode1 S2-GOT",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"episodeNr\" : 1,\r\n    \"episodeName\" : \"GOT-S2-Episode1\",\r\n    \"episodeLength\" : 60\r\n    \r\n}\r\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}/api/episodes",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"api",
+								"episodes"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "addingEpisode2 S2-GOT",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"episodeNr\" : 2,\r\n    \"episodeName\" : \"GOT-S2-Episode2\",\r\n    \"episodeLength\" : 60\r\n    \r\n}\r\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}/api/episodes",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"api",
+								"episodes"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "addingEpisode3 S2-GOT",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"episodeNr\" : 3,\r\n    \"episodeName\" : \"GOT-S2-Episode3\",\r\n    \"episodeLength\" : 60\r\n    \r\n}\r\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}/api/episodes",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"api",
+								"episodes"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "addingEpisode1 S1-HIMYM",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"episodeNr\" : 1,\r\n    \"episodeName\" : \"HIMYM-S1-Episode1\",\r\n    \"episodeLength\" : 45\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}/api/episodes",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"api",
+								"episodes"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "addingEpisode2 S1-HIMYM",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"episodeNr\" : 2,\r\n    \"episodeName\" : \"HIMYM-S1-Episode2\",\r\n    \"episodeLength\" : 45\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}/api/episodes",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"api",
+								"episodes"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "addingEpisode3 S1-HIMYM",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"episodeNr\" : 3,\r\n    \"episodeName\" : \"HIMYM-S1-Episode3\",\r\n    \"episodeLength\" : 45\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}/api/episodes",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"api",
+								"episodes"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "addingEpisode1 S2-HIMYM",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"episodeNr\" : 1,\r\n    \"episodeName\" : \"HIMYM-S2-Episode1\",\r\n    \"episodeLength\" : 45\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}/api/episodes",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"api",
+								"episodes"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "addingEpisode2 S2-HIMYM",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"episodeNr\" : 2,\r\n    \"episodeName\" : \"HIMYM-S2-Episode2\",\r\n    \"episodeLength\" : 45\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}/api/episodes",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"api",
+								"episodes"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "addingEpisode3 S2-HIMYM",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"episodeNr\" : 3,\r\n    \"episodeName\" : \"HIMYM-S2-Episode3\",\r\n    \"episodeLength\" : 45\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}/api/episodes",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"api",
+								"episodes"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "getEpisodeBasedOnId",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/api/episodes/:id",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"api",
+								"episodes",
+								":id"
+							],
+							"variable": [
+								{
+									"key": "id",
+									"value": "616538b4f548580bf8c36bc2"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "get all episode",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/api/episodes",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"api",
+								"episodes"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "season",
+			"item": [
+				{
+					"name": "addSeason1GOT",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"showName\": \"Game of Thrones\",\r\n    \"seasonNumber\": 1,\r\n    \"episodes\": [\r\n        \"61926ab0022f257574a701c0\",\r\n        \"619265b2105c9039d800512d\",\r\n        \"6192691e6447102f4827d3aa\"\r\n    ]\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}/api/seasons",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"api",
+								"seasons"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "addSeason2GOT",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"showName\": \"Game of Thrones\",\r\n    \"seasonNumber\": 2,  \r\n    \"episodes\": [\r\n        \"616538b4f548580bf8c36bc2\",\r\n        \"616538b7f548580bf8c36bc5\",\r\n        \"616538baf548580bf8c36bc8\"\r\n    ]\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}/api/seasons",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"api",
+								"seasons"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "addSeason1HIMYM",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"showName\": \"How I Met Your Mother\",\r\n    \"seasonNumber\": 1,\r\n    \"episodes\": [\r\n        \"616538c9f548580bf8c36bcb\",\r\n        \"616538cbf548580bf8c36bce\",\r\n        \"616538cdf548580bf8c36bd1\"\r\n    ]\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}/api/seasons",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"api",
+								"seasons"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "addSeason2HIMYM",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"showName\": \"How I Met Your Mother\",\r\n    \"seasonNumber\": 2,\r\n    \"episodes\": [\r\n        \"616538cff548580bf8c36bd4\",\r\n        \"616538d1f548580bf8c36bd7\",\r\n        \"616538d4f548580bf8c36bda\"\r\n    ]\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}/api/seasons",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"api",
+								"seasons"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "get all season",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/api/seasons",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"api",
+								"seasons"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "getSeasonBasedOnId",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/api/seasons/:id",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"api",
+								"seasons",
+								":id"
+							],
+							"variable": [
+								{
+									"key": "id",
+									"value": "616540f521e9c24b94a467ab"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "addingEpisodeToSeason",
+					"request": {
+						"method": "PATCH",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"seasonObjectId\" : \"616540e721e9c24b94a467a7\",\r\n    \"episodeObjectId\" : [\"614c798f4f54e3355472397f\"]\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}/api/seasons",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"api",
+								"seasons"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "removeSeason",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/api/seasons/:id",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"api",
+								"seasons",
+								":id"
+							],
+							"variable": [
+								{
+									"key": "id",
+									"value": "614c798c4f54e3355472397c"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "tvShows",
+			"item": [
+				{
+					"name": "addingGOT",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"name\": \"Game of Thrones\",\r\n  \"story\": \"Nine noble families fight for control over the lands of Westeros, while an ancient enemy returns after being dormant for millennia.\",\r\n  \"releaseDate\": \"2018-12-14\",\r\n  \"director\": \"James Wan\",\r\n  \"cast\": [\r\n    \"Emilia Clarke\",\r\n    \"Peter Dinklage\",\r\n    \"Kit Harington\",\r\n    \"Lena Headey\",\r\n    \"Sophie Turner\",\r\n    \"Maisie Williams\"\r\n  ],\r\n  \"seasons\": [\r\n      \"616540e721e9c24b94a467a7\",\r\n      \"616540f321e9c24b94a467a9\"\r\n  ],\r\n  \"poster\": \"https://static.posters.cz/image/750/poster/game-of-thrones-season-7-night-king-i49129.jpg\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}/api/tvshows",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"api",
+								"tvshows"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "addingHIMYM",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"name\": \"How I Met Your Mother\",\r\n  \"story\": \"A father recounts to his children - through a series of flashbacks - the journey he and his four best friends took leading up to him meeting their mother.\",\r\n  \"releaseDate\": \"2005-09-19\",\r\n  \"director\": \"Pamela Fryman\",\r\n  \"cast\": [\r\n    \"Josh Radnor\",\r\n    \"Jason Segel\",\r\n    \"Cobie Smulders\",\r\n    \"Neil Patric Harris\",\r\n    \"Alyson Hannigan\"\r\n  ],\r\n  \"seasons\": [\r\n      \"616540f521e9c24b94a467ab\",\r\n      \"616540f821e9c24b94a467ad\" \r\n  ],\r\n  \"poster\": \"https://i-viaplay-com.akamaized.net/viaplay-prod/671/244/1488879857-7da126481ff00e33bb882c8ffe4c24f68a6dfbaa.jpg?width=400&height=600&template=fox\"\r\n\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}/api/tvshows",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"api",
+								"tvshows"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "getAllTvShows",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/api/tvshows",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"api",
+								"tvshows"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "getTvShowBasedOnName",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\" : \"Game of Thrones\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}/api/tvshows",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"api",
+								"tvshows"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "getTvShowBasedOnId",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/api/tvshows/:id",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"api",
+								"tvshows",
+								":id"
+							],
+							"variable": [
+								{
+									"key": "id",
+									"value": "6165498548d9b3513c4fbbf7"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "get episodes by tvShowId and seasonId",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/api/tvshows/:tvShowId/seasons/:seasonId",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"api",
+								"tvshows",
+								":tvShowId",
+								"seasons",
+								":seasonId"
+							],
+							"variable": [
+								{
+									"key": "tvShowId",
+									"value": "6168895a22b10f1a1c265de3"
+								},
+								{
+									"key": "seasonId",
+									"value": "616540f821e9c24b94a467ad"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "removeTvShowBasedOnId",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/api/tvshows/:id",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"api",
+								"tvshows",
+								":id"
+							],
+							"variable": [
+								{
+									"key": "id",
+									"value": "61926b4bde22ee74f800e0bb"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "worldwideTopList",
+			"item": [
+				{
+					"name": "getTopList",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"id\": \"6194ef7b0f751f19c0820c4b\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}/api/worldwideTopLists",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"api",
+								"worldwideTopLists"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "addMovie",
+					"request": {
+						"method": "PATCH",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"action\" : \"add\",\r\n\t\"mediaName\": \"Venom\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}/api/worldwideTopLists",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"api",
+								"worldwideTopLists"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "addTvShow",
+					"request": {
+						"method": "PATCH",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"action\": \"remove\",\r\n\t\"mediaName\": \"How I Met Your Mother\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}/api/worldwideTopLists",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"api",
+								"worldwideTopLists"
+							],
+							"query": [
+								{
+									"key": null,
+									"value": "",
+									"disabled": true
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "removeMovie",
+					"request": {
+						"method": "PATCH",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"topListId\": \"6194ef7b0f751f19c0820c4b\",\r\n    \"reqAction\": \"remove\",\r\n\t\"reqMedia\": \"Venom\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}/api/worldwideTopLists",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"api",
+								"worldwideTopLists"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "delete toplist",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/api/worldwideTopLists/:id",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"api",
+								"worldwideTopLists",
+								":id"
+							],
+							"variable": [
+								{
+									"key": "id",
+									"value": "6194ef7b0f751f19c0820c4b"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "create toplist",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/api/worldwideTopLists",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"api",
+								"worldwideTopLists"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "favouriteList",
+			"item": [
+				{
+					"name": "createNewDEFAULTValueFavouriteList",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"userEmail\": \"syndra@gmail.com\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}/api/favouritelist",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"api",
+								"favouritelist"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "getAllFavouriteLists",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/api/favouritelist",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"api",
+								"favouritelist"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "getOneFavouriteList",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}/api/favouritelist?id=6197d180358758428871d19c",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"api",
+								"favouritelist"
+							],
+							"query": [
+								{
+									"key": "id",
+									"value": "6197d180358758428871d19c"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "addMovieFavourites",
+					"request": {
+						"method": "PATCH",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"favouriteListObjectId\" : \"6197d180358758428871d19c\",\r\n    \"movieObjectId\" : [\"6148d43b78c24b444cfdf4a3\", \"6151b888d0ae9021b482e639\"]\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}/api/favouritelist?id=616ed7f5f039698b40556d07&movie=6167b739f2b2e04c9cafeb5f",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"api",
+								"favouritelist"
+							],
+							"query": [
+								{
+									"key": "id",
+									"value": "616ed7f5f039698b40556d07"
+								},
+								{
+									"key": "movie",
+									"value": "6167b739f2b2e04c9cafeb5f"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "addTvShowFavourites",
+					"request": {
+						"method": "PATCH",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"favouriteListObjectId\": \"615088f2683bf90c7cdbb8da\",\r\n    \"tvShowObjectId\": [\"6151c9c89d61184d44620652\"]\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}/api/favouritelist",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"api",
+								"favouritelist"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "deleteFavouriteList",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/api/favouritelist/:id",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"api",
+								"favouritelist",
+								":id"
+							],
+							"variable": [
+								{
+									"key": "id",
+									"value": "6197d180358758428871d19c"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "reviews",
+			"item": [
+				{
+					"name": "postReview",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"mediaName\": \"Jurassic World\",\r\n    \"reviewScore\": 5,\r\n    \"reviewComment\": \"cool but not so cool\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}/api/reviews",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"api",
+								"reviews"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "getReview",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"mediaName\": \"Jurassic World\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}/api/reviews",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"api",
+								"reviews"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "getReviewBasedOnId",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/api/reviews/:id",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"api",
+								"reviews",
+								":id"
+							],
+							"variable": [
+								{
+									"key": "id",
+									"value": "616edb84b31b73450494f8bc"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "putTest",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": " {\r\n            \"_id\": \"618cdc0ae0d30d4740915ecd\",\r\n            \"mediaName\": \"Aquaman\",\r\n            \"publishDate\": \"2021-11-11T00:00:00.000Z\",\r\n            \"reviewScore\": 2,\r\n            \"reviewComment\": \"five\",\r\n            \"reviewEdit\": false,\r\n            \"__v\": 0\r\n        }",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}/api/reviews/:id",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"api",
+								"reviews",
+								":id"
+							],
+							"variable": [
+								{
+									"key": "id",
+									"value": "618cdc0ae0d30d4740915ecd"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "user",
+			"item": [
+				{
+					"name": "createUser",
+					"event": [
+						{
+							"listen": "prerequest",
+							"script": {
+								"exec": [
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n\t\"firstName\": \"Axel\",\r\n\t\"lastName\": \"Broberg\",\r\n\t\"userEmail\": \"axel@brobergs.nu\",\r\n\t\"password\": 123456\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}/api/users",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"api",
+								"users"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "getUser",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/api/users?email=niklas@gmail.com",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"api",
+								"users"
+							],
+							"query": [
+								{
+									"key": "email",
+									"value": "niklas@gmail.com"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update Password",
+					"request": {
+						"method": "PATCH",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n\t\"userEmail\": \"axel@brobergs.nu\",\r\n\t\"oldPassword\": 324,\r\n    \"newPassword\": 234\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}/api/users",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"api",
+								"users"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "deleteUser",
+					"event": [
+						{
+							"listen": "prerequest",
+							"script": {
+								"exec": [
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"userEmail\": \"axel@brobergs.nu\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}/api/users",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"api",
+								"users"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "signIn",
+			"item": [
+				{
+					"name": "signIn",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"userEmail\":\"axel@brobergs.nu\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}/api/signin",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"api",
+								"signin"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "get",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/api/signin",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"api",
+								"signin"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "signOut",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"userEmail\":\"niklas@gmail.com\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}/api/signin",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"api",
+								"signin"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "host",
+			"value": "http://localhost:3000",
+			"type": "string"
+		}
+	]
+}
