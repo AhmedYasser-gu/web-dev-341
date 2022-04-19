@@ -1,0 +1,41 @@
+{
+  "name": "client",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "awesome-vue-star-rating": "^1.0.9",
+    "axios": "^0.21.4",
+    "backend-frontend": "file:..",
+    "bootstrap": "^4.6.0",
+    "bootstrap-vue": "^2.21.2",
+    "loader": "^2.1.1",
+    "node-sass": "^6.0.1",
+    "sas": "^3.0.4",
+    "sass": "^1.42.1",
+    "vee-validate": "^3.4.13",
+    "vue": "^2.6.14",
+    "vue-awesome": "^4.3.1",
+    "vue-mq": "^1.0.1",
+    "vue-router": "^3.5.2",
+    "vuelidate": "^0.7.6",
+    "vuex": "^3.6.2"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-eslint": "^4.5.13",
+    "@vue/cli-service": "^4.5.13",
+    "@vue/eslint-config-standard": "^6.1.0",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.32.0",
+    "eslint-plugin-import": "^2.24.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^5.1.0",
+    "eslint-plugin-standard": "^5.0.0",
+    "eslint-plugin-vue": "^7.16.0",
+    "vue-template-compiler": "^2.6.14"
+  }
+}
